@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import glob
 import os
 import smtplib
@@ -10,9 +12,9 @@ directory = "/Users/sty/"
 filename = "read_cdr_*_" + yesterday.strftime('%Y%m%d') + ".log"
 logfile = "/tmp/email.log"
 
-sender = "setiyabudi@npp-asia.com" # only need 1 email address
+sender = "setiyabudi@xxx.com" # only need 1 email address
 # separate email address receivers with a space only
-receivers = "setiya.budi@yahoo.com setiyabudi@npp-asia.com"
+receivers = "xxx@xxx.com xxx@yyy.com"
 SMTPSERVER = "10.0.0.117" # webmail2.smartfren.com
 
 
